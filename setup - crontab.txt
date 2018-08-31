@@ -2,8 +2,9 @@
 ##### 		By "DP" from Rome - IT
 ##### 
 ##### 	EXAMPLE :  MESSI 	 https://www.instagram.com/messi
-#####	set permission 744 /var/www/html/
-#####	add Crontab every 5 minutes
+##### 
+#####	1) set permission 744 /var/www/html/
+#####	2) add Crontab every 5 minutes
 
 # followers instagram.com 
 */5 * * * * /var/www/html/followers.sh
