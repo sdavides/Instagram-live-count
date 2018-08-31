@@ -1,0 +1,2 @@
+wget -O /var/www/html/countlivetemppost.html https://www.instagram.com/messi && cat /var/www/html/countlivetemppost.html | grep og:description | sed 's/ /\
+/g' | sed 's/[="]*//g' | sed 's/[-abcdefghilnopqrstuvzwy:/><)(@ABCDEFGHILNOPQRSTUVZW]*//g' | sed -e '1,18d' | sed -e '2,20d' > /var/www/html/countlivepost.txt && echo post >> /var/www/html/countlivepost.txt && rm -rf /var/www/html/countlivetemppost.html
