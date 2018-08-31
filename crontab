@@ -2,26 +2,26 @@
 ##### 		By "DP" from Rome - IT
 ##### 
 ##### 	EXAMPLE :  MESSI 	
-#####	set permission 744 /var/www/html/livecount/
+#####	set permission 744 /var/www/html/
 #####	add Crontab every 5 minutes
 
 # followers instagram.com 
-*/5 * * * * /var/www/html/livecount/followers.sh
+*/5 * * * * /var/www/html/followers.sh
 
 # follow instagram.com 
-*/5 * * * * sleep 20 && /var/www/html/livecount/follow.sh
+*/5 * * * * sleep 20 && /var/www/html/follow.sh
 
 # post instagram.com 
-*/5 * * * * sleep 35 && /var/www/html/livecount/post.sh
+*/5 * * * * sleep 35 && /var/www/html/post.sh
 
 # followers webstagram.com 
-*/5 * * * * sleep 45 && /var/www/html/livecount/webstagramfollowers.sh
+*/5 * * * * sleep 45 && /var/www/html/webstagramfollowers.sh
 
 # follow webstagram.com 
-*/5 * * * * sleep 55 && /var/www/html/livecount/webstagramfollow.sh
+*/5 * * * * sleep 55 && /var/www/html/webstagramfollow.sh
 
 # post webstagram.com 
-*/6 * * * * sleep 15 && /var/www/html/livecount/webstagrampost.sh
+*/6 * * * * sleep 15 && /var/www/html/webstagrampost.sh
 
 #####	enjoy
 #####	end
