@@ -1,7 +1,7 @@
 #####   LIVE INSTAGRAM WITHOUT TOKEN
 ##### 		By "DP" from Rome - IT
 ##### 
-##### 	EXAMPLE :  MESSI 	
+##### 	EXAMPLE :  MESSI 	 https://www.instagram.com/messi
 #####	set permission 744 /var/www/html/
 #####	add Crontab every 5 minutes
 
