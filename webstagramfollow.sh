@@ -1,0 +1,1 @@
+wget -O /var/www/html/countlivetempfollow.html https://web.stagram.com/messi && cat /var/www/html/countlivetempfollow.html | grep following | sed 's/[^0-9]*//g' | sed 's/[ ]*//g'  > /var/www/html/webstagramcountlivefollow.txt && echo follow >> /var/www/html/webstagramcountlivefollow.txt && rm -rf /var/www/html/countlivetempfollow.html
