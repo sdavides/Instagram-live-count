@@ -1,0 +1,1 @@
+wget -O /var/www/html/countlivetemppost.html https://web.stagram.com/messi && cat /var/www/html/countlivetemppost.html | grep post | sed 's/[^0-9]*//g' | sed 's/[ ]*//g' | sed -e '1,4d' | sed -e '2,20d' > /var/www/html/webstagramcountlivepost.txt && echo post >> /var/www/html/webstagramcountlivepost.txt && rm -rf /var/www/html/countlivetemppost.html
